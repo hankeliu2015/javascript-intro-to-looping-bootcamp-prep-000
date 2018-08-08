@@ -42,7 +42,7 @@ function doWhileLoop(array) {
     array.pop()
   }
   //incrementVariable();
-  while(array.length>0);  //condition incrementVariable() && array.length >0) 
+  while(array.length>0);  //condition incrementVariable() && array.length >0)
 
   return array;
 }

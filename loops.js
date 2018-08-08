@@ -31,19 +31,18 @@ return 'done'
 //   return Math.random() >5;
 // }
 
-function incrementVariable() {
-  i = i - 1;
-  return i
-}
+// function incrementVariable() {
+//   i = i + 1;
+// }
 
 function doWhileLoop(array) {
-  i = array.length
+  // i = array.length
 
   do {
     array.pop()
   }
-  incrementVariable();
-  while(incrementVariable()>0);  //condition is set maybeTrue() or array.length >0)
+  //incrementVariable();
+  while(array.length>0);  //condition incrementVariable() && array.length >0) 
 
-  console.log(array);
+  return array;
 }
